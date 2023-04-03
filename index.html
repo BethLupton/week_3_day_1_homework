@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header class="nav-header">
         <h1 id="logo">CodeClan News</h1>
         <nav>
-          <ul>
+          <ul class="">
             <li>
               <a href="/">Home</a>
             </li>
@@ -30,9 +30,9 @@
             <h1>Login</h1>
         </header>
         <form="/">
-            <label for="email">Email:</label><br>
+            <label for="email">Email:</label>
             <input type="text" id="email" name="email" value="""><br>
-            <label for="password">Password:</label><br>
+            <label for="password">Password:</label>
             <input type="text" id="password" name="password" value=""><br><br>
             <input type="submit" value="Submit">
           </form>
@@ -41,7 +41,7 @@
             <h1>Categories</h1>
           </header>
           <nav>
-            <ul>
+            <ul class="categories">
               <li>
                 <a href="/">Latest</a>
               </li>
@@ -60,26 +60,25 @@
           <header>
             <h1>Latest</h1>
           </header>
-          <h2>Breaking News</h2>
-          <img src="images/placeholder-image.png" alt="Placeholder image of mountain">
+          <h3>Breaking News</h3>
+          <img id="mountains" src="images/placeholder-image.png" alt="Placeholder image of mountain">
 
           <h3>Story Headline</h3>
 
           <p>This is the first line of the article. The user would be able to click on the preview to see more...</p>
-          <img src="images/placeholder-image.png" alt="Placeholder image of mountain">
+          <img id="mountains" src="images/placeholder-image.png" alt="Placeholder image of mountain">
 
           <h3>Story Headline</h3>
 
           <p>This is the first line of the article. The user would be able to click on the preview to see more...</p>
-          <img src="images/placeholder-image.png" alt="Placeholder image of mountain">
+          <img id="mountains" src="images/placeholder-image.png" alt="Placeholder image of mountain">
           
           <h3>Story Headline</h3>
 
           <p>This is the first line of the article. The user would be able to click on the preview to see more...</p>
 
-          <header>
+          <header class="main-article">
             <h1>Main Article Headline</h1>
-          </header>
 
           <h2>Author Name</h2>
 
@@ -105,17 +104,18 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, porro ea beatae nemo rerum libero quis. Ipsam id maiores aliquam reiciendis esse aliquid non, maxime magni, animi vel perferendis eligendi?
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa temporibus natus ipsam commodi cumque non itaque, quasi, recusandae reprehenderit quam earum fugit. Obcaecati vero nobis blanditiis doloremque eaque odio voluptas. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus explicabo eligendi deleniti asperiores in culpa ipsum officia praesentium labore aliquid, repudiandae dolores iste doloremque, magnam necessitatibus? Laboriosam tempora optio fugiat?
           </p>
-
-          <header>
+        
             <h1>Comments</h1>
-          </header>
-          <form action="/">
-            <label for="comment-box">Comments:</label><br>
-            <input type="text" id="" name=" value=""><br>
-            <input type="submit" value="Submit">
+          
+          <form class="comment-form" action="/">
+            <label for="comment-box">Comments:</label>
+            <input type="text" id="" name=" value="">
+            <div>
+                <input type="submit" value="Submit">
+            </div>
           </form>
 
-          <img src="images/placeholder-avatar.png" alt="Placeholder-avatar">
+          <img id="heads" src="images/placeholder-avatar.png" alt="Placeholder-avatar">
 
           <h2>Username</h2>
 
@@ -123,7 +123,7 @@
 
           <p>This was intresting. Thanks</p>
 
-          <img src="images/placeholder-avatar.png" alt="Placeholder-avatar">
+          <img id="heads" src="images/placeholder-avatar.png" alt="Placeholder-avatar">
 
           <h2>Username</h2>
 
@@ -131,7 +131,7 @@
 
           <p>This was intresting. Thanks</p>
 
-          <img src="images/placeholder-avatar.png" alt="Placeholder-avatar">
+          <img id="heads" src="images/placeholder-avatar.png" alt="Placeholder-avatar">
 
           <h2>Username</h2>
 
@@ -145,7 +145,7 @@
 
 
 
-
+        </header>
     </article>
 
 </main>
